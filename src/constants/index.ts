@@ -1,0 +1,36 @@
+export const DEPARTMENTS = [
+    "Math",
+    "English",
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "History",
+    "Geography",
+    "Economics",
+    "Psychology",
+    "Sociology",
+    "Political Science",
+    "Philosophy",
+    "Religion",
+    "Art",
+    "Music",
+    "Theater",
+    "Dance",
+    "Physical Education",
+    "Health",
+    "Family and Consumer Sciences",
+    "Technology",
+    "Business",
+    "Law",
+    "Medicine",
+    "Engineering",
+    "Agriculture",
+    "Environmental Science",
+    "Computer Science",
+    "Information Technology",
+]
+
+export const DEPARTMENT_OPTIONS = DEPARTMENTS.map((department) => ({
+   value: department,
+    label: department
+}))
